@@ -8,5 +8,13 @@ function App() {
 export default App;
 
 function Counter() {
-  return <div>TEST</div>;
+  return (
+    <div>
+      <div className="step">
+        <button>-</button>
+        <span>Step {step}</span>
+        <button>+</button>
+      </div>
+    </div>
+  );
 }
