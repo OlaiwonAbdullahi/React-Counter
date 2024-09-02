@@ -8,10 +8,12 @@ function App() {
 export default App;
 
 function Counter() {
+  const;
+
   return (
     <div>
       <div className="step">
-        <button>-</button>
+        <button onClick={handleInc}>-</button>
         <span>Step:</span>
         <button>+</button>
       </div>
